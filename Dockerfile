@@ -2,7 +2,7 @@
 FROM httpd:latest
 
 # Copy your website files to the image
-COPY ./*.html /usr/local/apache2/htdocs/
+COPY ./index.html /usr/local/apache2/htdocs/
 # COPY ./index.html /usr/local/apache2/htdocs/
 # COPY ./Info.html /usr/local/apache2/htdocs/
 
